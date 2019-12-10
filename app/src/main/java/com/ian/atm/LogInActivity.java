@@ -28,7 +28,7 @@ public class LogInActivity extends AppCompatActivity {
         if("Tom".equals(us)&&"1234".equals(pas)){
             setResult(RESULT_OK);
             Log.d(TAG, "login");
-            finish();
+            finish();//结束登入
 
         }else{
             new AlertDialog.Builder(LogInActivity.this)
